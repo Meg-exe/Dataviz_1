@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
@@ -8,7 +8,7 @@
 
   </head>
   <body>
-    <h1> Sketch Note </h1>
+    <h1> Data Visualisation </h1>
     <main>
         <section>
             <h2>Clothes</h2>
@@ -16,7 +16,7 @@
                 <img src="sketchnote1.png" , alt="My Sketchnote"  width="842" height="595">
                 <!--<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/330px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/330px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/330px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg">-->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/330px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg">
 
             </div>
         </section>
@@ -35,5 +35,90 @@
 
     </main>
     <script src="sketch.js"></script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Data Vis</title>
+  </head>
+
+  <style>
+    html,
+    body {
+      margin: 20px;
+      padding: 0;
+    }
+
+    section {
+      margin-top: 100px;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    .category {
+      text-transform: uppercase;
+      font-size: 1.2rem;
+    }
+
+    .flex {
+      max-width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .flex img {
+      width: 200px;
+    }
+  </style>
+  <body>
+    <h1>Data Visualisation</h1>
+    <main>
+      <section>
+        <h2>Book SketchNote</h2>
+        <img class="main" src="sketchnote1.png" />
+      </section>
+      <section>
+        <p class="category">Clothes</p>
+        <h2>Title of your Clothes Piece</h2>
+        <img class="main" src="sketchnote1.png" />
+        <p>Process & Experiments</p>
+        <div class="flex">
+          <img src="clothes-1.png" />
+          <img src="clothes-2.png" />
+          <img src="clothes-1.png" />
+        </div>
+      </section>
+      <section>
+        <p class="category">Clothes</p>
+        <h2>Title of your Clothes Piece</h2>
+        <img class="main" src="sketchnote1.png" />
+        <p>Process & Experiments</p>
+        <div class="flex">
+          <img src="clothes-1.png" />
+          <img src="clothes-2.png" />
+          <img src="clothes-1.png" />
+        </div>
+      </section>
+      <section>
+        <p class="category">Clothes</p>
+        <h2>Title of your Clothes Piece</h2>
+        <img class="main" src="sketchnote1.png" />
+        <p>Process & Experiments</p>
+        <div class="flex">
+          <img src="clothes-1.png" />
+          <img src="clothes-2.png" />
+          <img src="clothes-1.png" />
+        </div>
+      </section>
+
+    </main>
   </body>
 </html>
